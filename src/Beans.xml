@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="sinfo" class="com.demo.Student">
+		<property name="s_ID" value="123" />
+		<property name="s_Name" value="Arti" />
+	</bean>
+
+	<bean id="tinfo" class="com.demo.Teacher">
+		<property name="t_ID" value="101" />
+		<property name="t_Name" value="Mr.Sharma" />
+	</bean>
+</beans>
